@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Contact: We will reply you soon, Thanks!</title>
+<link type="text/css" href="/static/css/feedback.css" rel="stylesheet" />
+<script type="text/javascript" src="/static/js/etw.fun.js"></script>
+<script type="text/javascript" src="/static/js/chat.fun.js"></script>
+</head>
+<body>
+  <form>
+    <div class="eachitem">
+      <div class="etwleft">
+        <b>*</b>Enter your email address
+      </div>
+      <div class="etwright">
+        <input type="text" id="email" title="Please make sure your email address is correct,otherwise the recipient will not be able to reply" placeholder="Email address" name="email" class="textarea_style" onblur="recheckemail()" />
+      </div>
+    </div>
+    <div class="eachitem" id="areaheight">
+      <div class="etwleft" style="margin-top:80px;">
+        <b>*</b>Your Message
+      </div>
+      <div class="etwright">
+        <textarea onblur="checkthistxt(this)" id="message" name="message" class="textarea_style" title="For the Best results,we recommend including the following details:self introduction,required specifications,inquire about price,and so on" placebolder="Your Message"> </textarea>
+      </div>
+    </div>
+    <div class="eachitem">
+      <div class="etwleft">Product Name</div>
+      <div class="etwright">
+        <input type="text" id="title" name="title" class="textarea_style" placeholder="Product Name" title="Product Name" value="" />
+      </div>
+    </div>
+    <div class="eachitem">
+      <div class="etwleft">Your Name</div>
+      <div class="etwright">
+        <input type="text" class="textarea_style" title="Your name." id="contacter" name="contacter" />
+      </div>
+    </div>
+    <div class="eachitem">
+      <div class="etwleft">Company</div>
+      <div class="etwright">
+        <input type="text" class="textarea_style" name="company" id="company" title="Company Name." />
+      </div>
+    </div>
+    <div class="eachitem">
+      <div class="etwleft">Tel./Fax.</div>
+      <div class="etwright">
+        <input type="text" class="textarea_style" value="" id="telephone" name="telephone" title="Telephone No. or Fax No." placeholder="Telephone No. or Fax No." />
+      </div>
+    </div>
+    <div class="eachitem">
+      <div class="etwleft">Skype / Whatsapp</div>
+      <div class="etwright">
+        <input type="text" class="textarea_style" value="" name="fax" id="fax" title="Skype No. or Whatsapp" placeholder="Skype No. or Whatsapp" />
+      </div>
+    </div>
+    <input id="etw_ip" value="155.94.243.147" type="hidden" /> <input id="usernameid" value="5068" type="hidden" /> <input id="url" value="/" type="hidden" /> <input id="language" value="English" type="hidden" /> <input id="htmlStyle" type="hidden" value="feedback.css" /> <input id="v_id" value="" type="hidden" /> <input type="hidden" id="checkurlstatus" title="index.php?index/feedback_check" />
+    <div align="center" class="etw09buttom">
+      <input type="hidden" id="guestDomain" value="sld-airtool.com" /> <input type="button" class="button" id="sendmessagebutton" value="Send" title="Click here to send message to us" onclick='send("Email address","please enter your email address,message to the input box","","","","")' />
+    </div>
+    <!--  <div class="quality_report_href"> <a href="#" onclick="quality_goto_page(quality_trans['iframe_src']+'&url=','&chatid=&lan=&etwurl=&domain=');return false;"></a></div>-->
+    <div id="showresultmsg"></div>
+  </form>
+</body>
+</html>

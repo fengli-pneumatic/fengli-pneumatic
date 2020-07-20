@@ -1,0 +1,3 @@
+function getNewProducts(){ var div=etwObj.$('newProductsShow'); if(div!=null || div!=undefined || div!='') { post_and_return_data('/news_products.php?type=products','time=a'); try{ div.innerHTML=etw_tmo_obj.result;}catch(err){}			}}
+function getNews(){ var div=etwObj.$('newsOfGuestShow'); if(div!=null || div!=undefined || div!='') { post_and_return_data('/news_products.php?type=news','time=a'); 	try{ 	div.innerHTML=etw_tmo_obj.result; }catch(err){} } }
+//getNewProducts();getNews();

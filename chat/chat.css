@@ -1,0 +1,15 @@
+#chatbox{ width:170px; height:30px; border:1px solid #0066ff; background:#fff; z-index:999; font-family:Arial, Helvetica, sans-serif;filter:alpha(opacity=80);opacity:0.8; padding:1px;webkit-box-shadow:1px 1px 5px #292929;  -moz-box-shadow:1px 1px 5px #292929;    box-shadow:1px 1px 5px #292929;filter: progid:DXImageTransform.Microsoft.Shadow(color='#292929', Direction=135, Strength=3)}
+#chatbox .etw_chat_left{ width:136px; float:left; height:30px; }
+#chatbox .etw_chat_left a img{ border:none;}
+#chatbox  .etw_chat_right{ width:34px; float:left; height:30px;}
+#chatbox  .etw_chat_right a img{ border:none;}
+#etwchatbox_style{ width:500px; height:22px; border-bottom:1px solid #CCCCCC; padding-bottom:1px; background:#f3f3f3;}
+#etwchatbox_style .textstyle{ width:400px; float:left; font-size:12px; font-weight:bold; text-align:left; text-indent:10px; line-height:22px; font-family:Arial, Helvetica, sans-serif;}
+#etwchatbox_style .etwchatboxclosebox{ float:left; width:95px; text-align:right;}
+#etwchatbox_style .etwchatboxclosebox a img{ border:none;}
+
+/*iframe page*/
+.textarea_style{ border:1px solid #CCC; width:175px; height:58px;transition:box-shadow 0.3s linear;-webkit-transition:box-shadow 0.3s linear; -moz-transition:box-shadow 0.3s linear;}
+.input_style{ font-size:11px; color:#666; text-indent:3px;border:1px solid #CCC; width:175px; height:18px; margin-top:5px;transition:box-shadow 0.3s linear;-webkit-transition:box-shadow 0.3s linear; -moz-transition:box-shadow 0.3s linear;}
+.submit_style{border:1px solid #CCC; width:80px; font-size:12px; font-family:arial; height:20px; line-height:20px; transition:box-shadow 0.3s linear;-webkit-transition:box-shadow 0.3s linear; -moz-transition:box-shadow 0.3s linear;}
+.martop6px{ margin-top:6px;}
